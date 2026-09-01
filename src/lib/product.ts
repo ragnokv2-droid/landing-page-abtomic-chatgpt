@@ -8,7 +8,7 @@ export const PRODUCT = {
 
   checkoutUrl:
     process.env.NEXT_PUBLIC_CHECKOUT_URL ||
-    "https://mundo-atleta-checkout.vercel.app/",
+    "https://pagamento.mundoatleta.shop/",
 };
 
 export function formatBRL(value: number) {
