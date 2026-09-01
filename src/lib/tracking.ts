@@ -8,5 +8,8 @@ export function buildCheckoutUrl(baseUrl: string) {
     destination.searchParams.set(key, value);
   });
 
+  // Origem oficial desta landing page. Mantém fbclid, UTMs e demais parâmetros.
+  destination.searchParams.set("source", "LP-GPT");
+
   return destination.toString();
 }
